@@ -2,12 +2,7 @@ import React, { useState } from 'react';
 
 const CATEGORIES = ['All', 'Food', 'Travel', 'Bills', 'Others'];
 
-const categoryIcon = {
-  Food: '🍔',
-  Travel: '✈️',
-  Bills: '📄',
-  Others: '📦',
-};
+
 
 const ExpenseList = ({ expenses, total, onDelete, onFilter }) => {
   const [filterCategory, setFilterCategory] = useState('All');

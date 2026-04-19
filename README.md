@@ -168,18 +168,9 @@ MONGO_URI=your_mongodb_connection_string
 REACT_APP_API_URL=your_backend_url
 ```
 
----
-
-
-
----
-
-
----
 
 
 ## 👨‍💻 Author
 
 Developed by **Jeeva**
 
----
