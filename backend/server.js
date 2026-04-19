@@ -14,8 +14,8 @@ app.use(cors());
 app.use(express.json());
 
 // Routes
-app.use('/api/expenses', expenseRoutes);
-app.use('/api/jobs', jobRoutes);
+app.use('/expenses', expenseRoutes);
+app.use('/jobs', jobRoutes);
 
 // Health check
 app.get('/', (req, res) => {
