@@ -11,7 +11,7 @@ export const updateExpense = (id, data) => API.put(`/expenses/${id}`, data);
 export const deleteExpense = (id) => API.delete(`/expenses/${id}`);
 
 // ─── Job APIs ───────────────────────────────────────────
-export const getJobs = (params) => API.get('/api/jobs', { params });
-export const createJob = (data) => API.post('/api/jobs', data);
-export const updateJob = (id, data) => API.put(`/api/jobs/${id}`, data);
-export const deleteJob = (id) => API.delete(`/api/jobs/${id}`);
+export const getJobs = (params) => API.get('/jobs', { params });
+export const createJob = (data) => API.post('/jobs', data);
+export const updateJob = (id, data) => API.put(`/jobs/${id}`, data);
+export const deleteJob = (id) => API.delete(`/jobs/${id}`);
