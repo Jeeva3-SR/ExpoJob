@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const API = axios.create({
-  baseURL: process.env.REACT_APP_API_URL || 'https://expojob.onrender.com/',
+  baseURL: 'https://expojob.onrender.com/api',
 });
 
 // ─── Expense APIs ───────────────────────────────────────
