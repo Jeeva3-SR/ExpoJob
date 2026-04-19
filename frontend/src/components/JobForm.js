@@ -51,7 +51,7 @@ const JobForm = ({ onAdd }) => {
           <input
             type="text"
             className="form-control form-control-sm"
-            placeholder="Role (optional)"
+            placeholder="Rolee (optional)"
             name="role"
             value={form.role}
             onChange={handleChange}
