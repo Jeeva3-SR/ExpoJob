@@ -39,7 +39,7 @@ const ExpenseForm = ({ onAdd }) => {
           <input
             type="text"
             className="form-control form-control-sm"
-            placeholder="Expense Title"
+            placeholder="Expenses Title"
             name="title"
             value={form.title}
             onChange={handleChange}
